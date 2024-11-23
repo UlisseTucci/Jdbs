@@ -1,0 +1,42 @@
+In un blog ogni [autore] ha la possibilità di <creare> [articoli], <modificarli>, <eliminarli>,
+<commentare> articoli propri o di altri autori oltre che <modificare> ed <eliminare> tali [commenti].
+
+***** Modellazione dei Dati *****
+>>>>>>> Entità da gestire <<<<<<<
+Autore
+	id -> int
+	username
+	email
+	nome visualizzato
+	
+Articolo
+	id
+	autore
+	titolo
+	contenuto
+	data di pubblicazione
+	
+Commento
+	id
+	autore
+	articolo
+	contenuto
+	data di pubblicazione
+
+***** Elenco delle operazioni ******
+>>>>> Operazioni di servizio <<<<<<<
+Ambito articoli:
+	creazione 
+	modifica 
+	eliminazione
+	OVVIAMENTE 
+		visualizzazione di tutti e 
+		visualizzazione di un articolo
+		visualizzazione di tutti gli articoli di un autore
+Ambito commenti:
+	creazione
+	modifica
+	eliminazione
+	OVVIAMENTE 
+		elenco dei commenti relativi ad un articolo
+	
