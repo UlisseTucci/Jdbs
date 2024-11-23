@@ -1,0 +1,36 @@
+Occorre implementare un meccanismo che sia in grado di distribuire 
+da un mazzo di carte da gioco le carte una ad una.
+
+D. Cosa intendo per carta da gioco?
+R. Ha come caratteristiche un seme e un valore.
+
++----------------------+
+| Carta da Gioco    A  |
++----------------------+
+| seme   int           |
+| valore int           |
++----------------------+
+           ^
+           |
+   +-------+--------+
+   |       |        |
+ Carta     |      Carta 
+ Francese  |    Napoletana
+           |
+           |
+    Carta dei Pokemon
+    
+D. Cosa intendo per un mazzo di carte?
+R. Si tratta di un contenitore di carte, costruito attraverso un meccanismo che consenta
+   una inizializzazione ad hoc delle carte contenute e la possibilità di recuperare le
+   carte una ad una, nonché di mescolarle su richiesta.
+   
++-----------------------------+
+| Mazzo di Carte          A   |
++-----------------------------+
+| carte 1..n  Carta da Gioco  |    
++-----------------------------+
+| inizializzazione()      A   |
+| prossimaCarta()             |
+| mescola()                   |
++-----------------------------+
