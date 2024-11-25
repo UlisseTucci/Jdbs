@@ -1,0 +1,24 @@
+Occorre dare la possibilità di gestire una rubrica telefonica.
+
+Rubrica -> n Contatti
+
+Contatto
+	id
+	nome
+	cognome
+	n numero_telefonico
+	
+Numero_telefonico
+	id
+	prefisso -> string
+	numero -> string
+	
+Cosa intendiamo per gestione?
+X	Dobbiamo poter aggiungere un contatto
+X	Dobbiamo poter modificare i dati di un contatto
+X	Dobbiamo poter cancellare un contatto e tutti i suoi numeri di telefono
+X	Dobbiamo poter aggiungere un numero di telefono ad un contatto
+X	Dobbiamo poter cancellare un numero di telefono di un contatto
+X	Dobbiamo poter elencare tutti i contatti in rubrica
+X	Dobbiamo poter cercare un contatto a partire dal numero di telefono
+	Dobbiamo poter cercare un contatto su una parte del nome o del cognome
